@@ -11,6 +11,7 @@ git-commit-helper
   - github (with base)
     - less than 100MB per file
     - less than 2GB per commit / push
+      - auto commit (split big changes)
     - auto create
       - repo
         - "main"
