@@ -2,6 +2,7 @@ git-commit-helper
 =================
 ### TODOs
 - auto detect repo origin provider if it is a repo
+- Colored flags
 - profiles
   - base
     - reject any `node_modules` folder
