@@ -2,10 +2,13 @@ git-commit-helper
 =================
 ### TODOs
 - auto detect repo origin provider if it is a repo
+- Colored flags
+- adhoc reject
 - profiles
   - base
     - reject any `node_modules` folder
     - reject any archive file format other than `.zip`
+    - reject macOS trash: `__MACOSX`, `.DS_Store`
     - safe full path length
     - auto write .gitignore?
   - github (with base)
@@ -16,3 +19,4 @@ git-commit-helper
       - repo
         - "main"
       - workflows
+      - mirroring?
