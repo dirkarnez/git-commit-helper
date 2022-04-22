@@ -53,8 +53,8 @@ func Scan(root string) {
 }
 
 var (
-	BLACKLISTED_FILE_EXTENSIONS = []string{".url", ".log"}
-	BLACKLISTED_FOLDER_NAMES    = []string{"node_modules", ".tmp.driveupload", ".git", "vendor", "tmp"}
+	BLACKLISTED_FILE_EXTENSIONS = []string{".url", ".log", ".DS_Store"}
+	BLACKLISTED_FOLDER_NAMES    = []string{"node_modules", ".tmp.driveupload", ".git", "vendor", "tmp", "__MACOSX"}
 )
 
 func main() {
