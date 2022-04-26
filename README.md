@@ -6,9 +6,11 @@ git-commit-helper
 - adhoc reject
 - profiles
   - base
-    - reject any `node_modules` folder
+    - reject any unignored `node_modules` folder
+      - **FORCE DELETE**
     - reject any archive file format other than `.zip`
-    - reject macOS trash: `__MACOSX`, `.DS_Store`
+      - by config
+    - **FORCE DELETE MODE** macOS trash: `__MACOSX`, `.DS_Store`
     - safe full path length
     - auto write .gitignore?
   - github (with base)
