@@ -9,7 +9,7 @@ git-commit-helper
     - reject any unignored `node_modules` folder
       - **FORCE DELETE**
     - reject any archive file format other than `.zip`
-      - by config
+      - by command line: `git-commit-helper --no-compressed-files` / `git-commit-helper --only-allow-compressed-file-formats="zip,rar"`
     - **FORCE DELETE MODE** macOS trash: `__MACOSX`, `.DS_Store`
     - safe full path length
     - auto write .gitignore?
