@@ -4,6 +4,7 @@ git-commit-helper
 - auto detect repo origin provider if it is a repo
 - Colored flags
 - adhoc reject
+- **should not do anything unconfirmed**
 - profiles
   - base
     - reject any unignored `node_modules` folder
